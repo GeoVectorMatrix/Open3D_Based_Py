@@ -7,6 +7,11 @@ if __name__ == "__main__":
     gPath = os.path.abspath(os.path.join(os.getcwd(), "../..")) ## Get Project path, Windows_10
     plyPath = os.path.join(gPath, 'TestData','fragment.ply')
     pcd = o3d.io.read_point_cloud(plyPath)
+    # o3d.visualization.draw_geometries([pcd],
+    #                                   zoom=0.7,
+    #                                   front=[0.0, -0.5, -0.8499],
+    #                                   lookat=[2.1813, 2.0619, 2.0999],
+    #                                   up=[0.1204, -0.9852, 0.1215]) # Show original point clouds
     RGKNN = RG.RegionGrowing()
     RGKNN.SetDataThresholds(pcd,10.0) # the growing angle threshold is set to 10.0 degree
     RGKNN.RGKnn()  # Run region growing
