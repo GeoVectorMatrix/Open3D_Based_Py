@@ -1,6 +1,6 @@
 """
 Main task: Point-related math
-@author: GeoLab Shaobo Xia
+@author: GeoLab
 """
 import numpy as np
 
