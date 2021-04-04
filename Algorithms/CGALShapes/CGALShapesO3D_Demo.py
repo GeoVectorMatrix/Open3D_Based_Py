@@ -9,6 +9,7 @@ Please cite the following paper (related to this topic), if this code helps you 
             year={2020},
             publisher={IEEE}
            }
+    Parts of codes are from https://github.com/CGAL/cgal-swig-bindings/blob/main/examples/python/Shape_detection_example.py
 """                 
 from CGAL.CGAL_Kernel import Point_3
 from CGAL.CGAL_Kernel import Vector_3
