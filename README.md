@@ -1,6 +1,6 @@
 # Open3D_Based_Py
 
-Algorithm implementations based on Open3D （https://github.com/intel-isl/Open3D）
+Algorithm implementations based on Open3D （ https://github.com/intel-isl/Open3D ）
 
 ## Region growing
 A simple implementation for region growing based on the normal differences. 
