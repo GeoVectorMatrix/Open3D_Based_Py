@@ -102,37 +102,3 @@ class Edge3DCentroid:
             local_idx  = idx[local_idx]
             if(self.EICopy[i] < self.EICopy[local_idx]).any():
                 self.EI[i] = 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
