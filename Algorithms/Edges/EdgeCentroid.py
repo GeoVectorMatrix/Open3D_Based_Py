@@ -11,7 +11,7 @@ Main task: Given 3D point clouds and several thresholds,
                    year={2017},
                    publisher={IEEE}
                   }
-NO：Based on the ablation study, the original method (C++) is simplified and implemented in Python to improve its efficiency, generality, and robustness. 
+NOTES：Based on the ablation study, the original method (C++) is simplified and implemented in Python to improve its efficiency, generality, and robustness. 
 In this version, the edge-index can be filtered directly, and its performance is close to (or even better than) the initial one.
 @author: GeoMatrix Lab
 """
