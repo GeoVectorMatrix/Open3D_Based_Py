@@ -1,6 +1,6 @@
 """
 Main task: Given 3D point clouds and several thresholds,
-           generate edge candidates based the idea of 'edge-centroid-gradient' in
+           generate edge candidates based the idea of 'centroid-gradient' in
           @article{xia2017fast,
                    title={A fast edge extraction method for mobile LiDAR point clouds},
                    author={Xia, Shaobo and Wang, Ruisheng},
@@ -11,7 +11,7 @@ Main task: Given 3D point clouds and several thresholds,
                    year={2017},
                    publisher={IEEE}
                   }
-NOTES：Based on the ablation study, the original method (C++) is simplified and implemented in Python to improve its efficiency, generality, and robustness. 
+NOTES：Based on the ablation study, the original method (in C++) is simplified and implemented in Python to improve its efficiency, generality, and robustness. 
 In this version, the edge-index can be filtered directly, and its performance is close to (or even better than) the initial one.
 @author: GeoMatrix Lab
 """
@@ -46,7 +46,7 @@ class Edge3DCentroid:
         self.EI  = np.zeros(self.NPt)
 
 
-    # Caculate edge index by cpp wrappers, much faster 
+    # Caculate edge index by cpp-wrappers, much faster 
     # Time cost : from over 400s -> 69.07949757575989s  ->  15.45028567314148s after improving codes
     def CaculateEI_CPP(self):  
         self.Neighbours = cpp_neighbors.batch_query(np.asarray(self.pcd.points).astype(np.float32),
