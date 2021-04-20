@@ -21,6 +21,6 @@ A simple implementation for region growing based on the normal differences.
 
 ## Edge points detection demos
 <div align=center><img src="https://github.com/GeoVectorMatrix/Open3D_Based_Py/blob/main/Imgs/Edges.png" width="600" height="270"/><br/></div>
-<p align="center"> Extracting 3D edge candidates from point clouds. </p>
+<p align="center"> Extracting 3D edge candidates from point clouds. Edge candidates by thresholding the edge index (left). After applying the gradient-guidednon-maximum suppression (right). </p>
 
 ## TBD...
