@@ -20,7 +20,7 @@ A simple implementation for region growing based on the normal differences.
 <p align="center"> CGAL region growing with the default setting, except the minimal cluster size is set to 100. </p>
 
 ## Edge points detection demos
-<div align=center><img src="https://github.com/GeoVectorMatrix/Open3D_Based_Py/blob/main/Imgs/Edges.png" width="600" height="270"/><br/></div>
-<p align="center"> Extracting 3D edge candidates from point clouds. Edge candidates by thresholding the edge index (left). After applying the gradient-guidednon-maximum suppression (right). </p>
+<div align=center><img src="https://github.com/GeoVectorMatrix/Open3D_Based_Py/blob/main/Imgs/Edges.png" width="750" height="270"/><br/></div>
+<p align="center"> 3D edge points. Edge candidates by thresholding the edge index (left). After applying the gradient-guidednon-maximum suppression (right). </p>
 
 ## TBD...
