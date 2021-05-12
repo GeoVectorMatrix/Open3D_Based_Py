@@ -4,6 +4,19 @@ Created on Wed May 12 16:26:20 2021
 
 @author: GeoFunny
 """
+"""
+Please cite the following paper (related to this topic), if this code helps you in your research.
+   @article{xia2020geometric,
+            title={Geometric primitives in LiDAR point clouds: A review},
+            author={Xia, Shaobo and Chen, Dong and Wang, Ruisheng and Li, Jonathan and Zhang, Xinchang},
+            journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+            volume={13},
+            pages={685--707},
+            year={2020},
+            publisher={IEEE}
+           }
+    Parts of codes are from https://github.com/CGAL/cgal-swig-bindings/blob/main/examples/python/Shape_detection_example.py
+"""   
 from CGAL.CGAL_Kernel import Point_3
 from CGAL.CGAL_Kernel import Vector_3
 from CGAL.CGAL_Point_set_3 import Point_set_3
