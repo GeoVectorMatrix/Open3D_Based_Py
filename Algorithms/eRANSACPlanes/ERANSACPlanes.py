@@ -38,13 +38,3 @@ class ERansacPlanes(object):
               break
           if self.max_n_planes < len( self.PlaneList):
               break
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
